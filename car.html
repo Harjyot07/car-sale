@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Car Sale</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.car-card {
+    background: white;
+    width: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.car-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.car-card h3 {
+    margin: 10px;
+}
+
+.car-card p {
+    margin: 10px;
+    color: #555;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #218838;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>🚗 Buy & Sell Cars</h1>
+    <p>Find your dream car today</p>
+</header>
+
+<div class="container">
+
+    <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1542362567-b07e54358753" alt="Car">
+        <h3>Tesla Model S</h3>
+        <p>Electric luxury sedan with autopilot</p>
+        <div class="price">$80,000</div>
+        <a href="#" class="btn">Contact Seller</a>
+    </div>
+
+    <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Car">
+        <h3>BMW M4</h3>
+        <p>Sport performance coupe</p>
+        <div class="price">$70,000</div>
+        <a href="#" class="btn">Contact Seller</a>
+    </div>
+
+    <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1493238792000-8113da705763" alt="Car">
+        <h3>Audi R8</h3>
+        <p>Supercar with V10 engine</p>
+        <div class="price">$150,000</div>
+        <a href="#" class="btn">Contact Seller</a>
+    </div>
+
+</div>
+
+</body>
+</html>
